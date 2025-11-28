@@ -2,7 +2,7 @@ exports.version = 1.0
 exports.apiRequired = 12.94
 exports.description = "Allows you to turn on and off VMs through HFS on the host machine"
 exports.repo = "W-i-n-7/vmware-ctrl"
-exports.preview ["https://raw.githubusercontent.com/W-i-n-7/vmware-ctrl/refs/heads/main/imgs/image1.png", "https://raw.githubusercontent.com/W-i-n-7/vmware-ctrl/refs/heads/main/imgs/image2.png", "https://raw.githubusercontent.com/W-i-n-7/vmware-ctrl/refs/heads/main/imgs/image3.png"]
+exports.preview ["https://github.com/user-attachments/assets/e07874ef-4670-470b-8bf8-826eb76635ae", "https://github.com/user-attachments/assets/181556ba-9540-4980-8520-39836dfeeb63", "https://github.com/user-attachments/assets/95c2b393-0ad3-4ba1-9ad5-41803e0327ac"]
 
 exports.customHtml = {
   "userPanelAfterInfo": `
@@ -165,4 +165,5 @@ exports.init = (api) => {
         }
     }
 }
+
 
