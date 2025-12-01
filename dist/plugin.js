@@ -1,5 +1,5 @@
 exports.version = 1.0
-exports.apiRequired = 12.94
+exports.apiRequired = 11.6 // config.type.vfs_path: folders, files
 exports.description = "Allows you to turn on and off VMs through HFS on the host machine"
 exports.repo = "W-i-n-7/vmware-ctrl"
 exports.preview = ["https://raw.githubusercontent.com/W-i-n-7/vmware-ctrl/refs/heads/main/imgs/image1.png", "https://raw.githubusercontent.com/W-i-n-7/vmware-ctrl/refs/heads/main/imgs/image2.png", "https://raw.githubusercontent.com/W-i-n-7/vmware-ctrl/refs/heads/main/imgs/image3.png"]
@@ -165,6 +165,7 @@ exports.init = (api) => {
         }
     }
 }
+
 
 
 
